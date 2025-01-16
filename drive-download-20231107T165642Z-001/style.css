@@ -1,0 +1,18 @@
+/*       Arquivo Externo de Estilização        */
+
+body{
+    color: rgb(0, 63, 100);
+}
+h1 {
+    color: aquamarine;
+    align-self: center;
+    justify-self: center;
+}
+video{
+    height: 400px;
+    width: 600px;
+}
+iframe{
+    height: 300px;
+    width: 600px;
+}

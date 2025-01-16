@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Vitus</title>
+    <script src="https://kit.fontawesome.com/611b7e0efe.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="showSection('sobre')">
+    <nav>
+        <ul>
+            <a href="#sobre" onclick="showSection('sobre')"><li>Sobre mim</li></a>
+            <a href="#contatos" onclick="showSection('contatos')"><li>Contate-me</li></a>
+            <a href="#favoritos" onclick="showSection('favoritos')"><li>Favoritos</li></a>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre" class="sobre">
+            <div class="principal">
+                <img src="./midia/piccrew.png" class="imagem">
+                <div class="sub">
+                    <h1>Victor Dias</h1>
+                    <h2>Programador, Emo e Pro-player de Minecraft</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="contatos" class="contatos" class="hidden">
+            <div class="cont">
+                <h3>Minhas Redes:</h3>
+                <ul>
+                    <a href="https://www.linkedin.com/in/victor-frota-88323aa3/" target="blank"><li><i class="fa-brands fa-linkedin"></i><p>LinkedIn</p></li></a>
+                    <a href="https://github.com/viitus" target="blank"><li><i class="fa-brands fa-github"></i><p>GitHub</p></li></a>
+                    <a href="https://api.whatsapp.com/send?phone=553798590989" target="blank"><li><i class="fa-brands fa-whatsapp"></i><p>WhatsApp</p></li></a>
+                    <a href="https://instagram.com/8_plagues" target="blank"><li><i class="fa-brands fa-instagram"></i><p>Instagram</p></li></a>
+                    <a href="https://replit.com/@VictorFrota?username=VictorFrota" target="blank"><li><i class="fa-solid fa-code"></i><p>Replit</p></li></a>
+                    <a href="https://open.spotify.com/user/_vitus?si=52a08385384a4e1b" target="blank"><li><i class="fa-brands fa-spotify"></i><p>Spotify</p></li></a>
+                    <a href="https://twitter.com/_viiitus" target="blank"><li><i class="fa-brands fa-twitter"></i><p>Twitter</p></li></a>
+                </ul>
+            </div>
+        </section>
+   
+        <section class="favoritos" id="favoritos" class="hidden">
+            <h2 class="titleFav" id="titleFav">Meus top 5 de 2023</h2>
+            <div class="subFav" id="subFav" style="display: none;">
+                <div class="AAA">
+                    <h3 class="Artistas" id="Artistas">Artistas</h3>
+                    <ul class="listaA" id="listaA">
+                        <a href="#escolha" onclick="showSection('escolha')">
+                            <li id="art1">Bring Me The Horizon</li>
+                            <li id="art2">Fresno</li>
+                            <li id="art3">Sleep Token</li>
+                            <li id="art4">Movements</li>
+                            <li id="art5">Motionless In White</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="AAA">
+                    <h3 class="Musicas" id="Musicas">Musicas</h3>
+                    <ul class="listaB" id="listaB">
+                        <a href="#escolha" onclick="showSection('escolha')">
+                        <li id="mus1">Slaugherhouse</li>
+                        <li id="mus2">LosT</li>
+                        <li id="mus3">AmEN</li>
+                        <li id="mus4">Third Degree</li>
+                        <li id="mus5">The Summoning</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="AAA">
+                    <h3 class="Albuns" id="Albuns">Albuns</h3>
+                    <ul class="listaC" id="listaC">
+                        <a href="#escolha" onclick="showSection('escolha')">
+                            <li id="alb1">Take me back to eden</li>
+                            <li id="alb2">THE DEATH OF PEACE OF MIND</li>
+                            <li id="alb3">I DISAGREE</li>
+                            <li id="alb4">sua alegria foi cancelada</li>
+                            <li id="alb5">POST HUMAN: SURVIVAL HORROR</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="escolha" id="escolha" class="hidden">
+            <iframe id="ar1" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/artist/1Ffb6ejR6Fe5IamqA5oRUF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="ar2" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/artist/2sFXe6NbmT3k7Qy4N8fE7f?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="ar3" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/artist/2n2RSaZqBuUUukhbLlpnE6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="ar4" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/artist/1kkyfIopIiVvaPHHlbsfac?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="ar5" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/artist/6MwPCCR936cYfM1dLsGVnl?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <iframe id="mu1" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/track/2ClgEn1FZxchrqRZ04JZzj?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="mu2" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/track/5BgnL6gHauuvxe4Ok6W1aC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="mu3" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/track/5viZ8CLipufc1Q1NXpMRNN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="mu4" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/track/31ziLyxm1ZIy8vEXM6EzkF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            
+            <iframe id="mu5" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/track/0S38Oso3I9vpDXcTb7kYt9?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+            <iframe id="al1" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/album/1gjugH97doz3HktiEjx2vY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="al2" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/album/3p7m1Pmg6n3BlpL9Py7IUA?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="al3" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/album/0jTjzLGg15C48CJEfZ9pFJ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="al4" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/album/1GSWscE57Om1uvMRgcSDPZ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe id="al5" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/album/0e1WaSNDZnoPixaxDNdWo4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+        </section>
+    </main>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

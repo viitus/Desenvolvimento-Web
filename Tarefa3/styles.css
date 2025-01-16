@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  line-height: 1.6;
+  background-color: #fff2da;
+}
+
+header {
+  background-color: #d1a77e;
+  padding: 20px;
+  text-align: center;
+}
+
+.oli {
+  width: 100%;
+}
+
+h1 {
+  margin: 20px;
+  color: #fff2da;
+}
+
+.colunas {
+  display: flex;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1f1f1f;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+select {
+  width: 100%;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.gatolink {
+  color: #4caf50;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f4f4f4;
+  border: 1px solid #b0a9a9;
+  padding: 2px 4px;
+  font-family: monospace;
+}
+
+img {
+  width: 40%;
+  height: auto;
+}
+
+footer {
+  background-color: #d1a77e;
+  padding: 20px;
+  text-align: center;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul li {
+  margin: 0 10px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  background-color: #4f80a3;
+  padding: 20px;
+}
+
+.princ {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.item {
+  flex: 2;
+  padding: 20px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.form-group {
+  display: flex;
+}
+
+input,
+button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color:  #d1a77e;
+  text-align: left;
+}
+
+.navigation {
+  margin-top: 10px;
+}
+
+.navigation button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+label {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}

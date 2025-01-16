@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #d1a77e;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label span {
+    text-align: right; /* Justifica o texto dos títulos para a direita */
+    width: 100px; /* Define uma largura fixa para os títulos */
+    margin-right: 10px; /* Espaçamento entre o título e o campo */
+}
+
+label input {
+    flex: 1; /* Faz os campos ocuparem espaço disponível */
+    max-width: 250px; /* Define um tamanho fixo máximo */
+    margin-left: 10px; /* Espaçamento entre o texto e o campo */
+    padding: 8px; /* Espaçamento interno para consistência */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Inclui bordas e padding na largura total */
+}
+
+form div {
+    text-align: center; /* Centraliza os botões */
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; /* Garante que os botões respeitem o alinhamento do contêiner */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: rgb(224, 180, 123);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(203, 152, 86);
+}

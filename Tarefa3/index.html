@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarefa de Desenvolvimento Web</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Página da Segunda Tarefa de Desenvolvimento Web</h1>
+      <div class="colunas">
+        <h2 class="item">Título de Segundo Nível</h2>
+        <h3 class="item">De Terceiro Nível</h3>
+        <h4 class="item">Quarto nivel</h4>
+        <h5 class="item">Quinto</h5>
+      </div>
+    </header>
+
+    <div class="colunas">
+      <form id="formulario">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" required />
+        </div>
+
+        <div class="form-group">
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" required />
+        </div>
+
+        <div class="form-group">
+          <label for="idade">Idade:</label>
+          <input type="number" id="idade" required />
+        </div>
+
+        <button type="button" id="cadastrar">Cadastrar</button>
+        <button type="button" id="limpar">Limpar</button>
+      </form>
+
+      <div>
+        <div id="tabela-container"></div>
+        <div class="navigation">
+          <button type="button" id="anterior" style="display: none">
+            Anterior
+          </button>
+          <button type="button" id="proximo" style="display: none">
+            Próximo
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <aside>
+        <article>
+          <h2>Bring me The Horizon fará turnê no Brasil</h2>
+          <p>
+            O Bring Me The Horizon, uma das bandas de metal mais influentes da
+            atualidade, anunciou sua volta aos palcos brasileiros em 2024! A
+            banda britânica, conhecida por seus shows energéticos e uma mistura
+            única de metalcore e elementos eletrônicos, promete agitar os fãs
+            com uma apresentação inesquecível.
+          </p>
+          <p>
+            O show único acontecerá no dia 30 de novembro no Allianz Parque, em
+            São Paulo. A apresentação será realizada pela 30e e terá como
+            convidadas especiais as bandas Motionless In White, Spiritbox e The
+            Plot In You, prometendo um dia inteiro de música pesada e de alta
+            qualidade.
+          </p>
+        </article>
+
+        <h3>Sobre o Bring me The Horizon</h3>
+        <img
+          class="oli"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/2016_RiP_Bring_Me_the_Horizon_-_Oliver_Sykes_-_by_2eight_-_8SC6698.jpg/400px-2016_RiP_Bring_Me_the_Horizon_-_Oliver_Sykes_-_by_2eight_-_8SC6698.jpg"
+          alt="Foto do autor"
+        />
+        <p>
+          Formado em Sheffield, na Inglaterra, em 2004, o Bring Me The Horizon
+          rapidamente se tornou um dos nomes mais importantes do metalcore. Com
+          álbuns aclamados pela crítica e pelo público, a banda conquistou fãs
+          ao redor do mundo com sua sonoridade agressiva e letras
+          introspectivas.
+        </p>
+        <h4>Artigos Relacionados</h4>
+        <ul>
+          <li><a href="#">Artigo 1</a></li>
+          <li><a href="#">Artigo 2</a></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section>
+      <h3>Texto em Parágrafo</h3>
+      <p>
+        Este é um parágrafo de exemplo. Ele pode conter
+        <em>texto em itálico</em>, <strong>texto em negrito</strong>, e
+        <small>texto menor</small>.
+      </p>
+      <p>
+        Este é outro parágrafo com uma quebra de linha.<br />Depois desta frase,
+        o texto continua na linha seguinte.
+      </p>
+    </section>
+
+    <section>
+      <h4>Imagem e Links</h4>
+      <img
+        src="https://s2-oglobo.glbimg.com/TBHKF5iXMhHB2JEzL8iVEMRQshU=/0x0:439x273/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/U/C/V9PkuMSEu3hQDv1bzUmg/screenshot-201.png"
+        alt="Exemplo de Imagem"
+      />
+      <p>
+        Acesse
+        <a
+          class="gatolink"
+          href="https://oglobo.globo.com/mundo/epoca/noticia/2023/07/25/compartilhou-o-meme-conheca-o-gato-preto-que-ficou-popular-com-poker-face.ghtml"
+          >este link</a
+        >
+        para mais informações.
+      </p>
+    </section>
+
+    <section>
+      <h4>Lista Ordenada</h4>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+
+      <h4>Lista Não Ordenadas</h4>
+      <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+        <li>Item D</li>
+        <li>Item E</li>
+      </ul>
+    </section>
+
+    <section>
+      <h4>Elementos Semânticos e de Código</h4>
+      <p>Esta é uma <cite>citação</cite> de uma fonte importante.</p>
+      <p>
+        Esta palavra contém uma abreviação:
+        <abbr title="Hypertext Markup Language">HTML</abbr>.
+      </p>
+      <p>
+        Data registrada: <data value="2024-10-09">9 de outubro de 2024</data>.
+      </p>
+      <p>Hora registrada: <time datetime="2024-10-09T10:00">10:00</time>.</p>
+      <p>Código de exemplo: <code>console.log("Hello, world!");</code>.</p>
+      <p>
+        Você pode usar <i>itálico</i> ou <b>negrito</b> para destacar seu texto.
+      </p>
+      <br />
+    </section>
+
+    <footer>
+      <p>&copy; Victor Dias Frota. Todos os direitos reservados.</p>
+      <nav>
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
